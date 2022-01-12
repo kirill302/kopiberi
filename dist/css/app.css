@@ -618,10 +618,7 @@ input[type="submit"]:required {
   letter-spacing: 0.5px;
   font-weight: 600;
 }
-.footer__icons {
-  display: flex;
-  gap: 20px;
-}
+
 
 .footer__items {
   margin-top: 45px;
@@ -4500,4 +4497,9 @@ header.index {
   .support__banks .bank__item {
     height: auto;
   }
+}
+
+.footer__icons {
+  display: flex;
+  gap: 20px;
 }
