@@ -618,16 +618,11 @@ input[type="submit"]:required {
   letter-spacing: 0.5px;
   font-weight: 600;
 }
-.footer__icons a {
-  margin-right: 23px;
+.footer__icons {
+  display: flex;
+  gap: 20px;
 }
-.footer__icons a:nth-child(1) {
-  position: relative;
-  top: -5px;
-}
-.footer__icons a:nth-child(3) {
-  margin-right: 0;
-}
+
 .footer__items {
   margin-top: 45px;
   gap: 70px;
